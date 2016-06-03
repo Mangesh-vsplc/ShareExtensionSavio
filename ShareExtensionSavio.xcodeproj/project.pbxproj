@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA46D9531D017A0700DA89EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9521D017A0700DA89EA /* AppDelegate.swift */; };
+		CA46D9551D017A0700DA89EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9541D017A0700DA89EA /* ViewController.swift */; };
+		CA46D9581D017A0700DA89EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA46D9561D017A0700DA89EA /* Main.storyboard */; };
+		CA46D95A1D017A0700DA89EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA46D9591D017A0700DA89EA /* Assets.xcassets */; };
+		CA46D95D1D017A0700DA89EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA46D95B1D017A0700DA89EA /* LaunchScreen.storyboard */; };
+		CA46D9681D017A0700DA89EA /* ShareExtensionSavioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9671D017A0700DA89EA /* ShareExtensionSavioTests.swift */; };
+		CA46D9731D017A0700DA89EA /* ShareExtensionSavioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9721D017A0700DA89EA /* ShareExtensionSavioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA46D9641D017A0700DA89EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA46D9471D017A0700DA89EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA46D94E1D017A0700DA89EA;
+			remoteInfo = ShareExtensionSavio;
+		};
+		CA46D96F1D017A0700DA89EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA46D9471D017A0700DA89EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA46D94E1D017A0700DA89EA;
+			remoteInfo = ShareExtensionSavio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA46D94F1D017A0700DA89EA /* ShareExtensionSavio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareExtensionSavio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46D9521D017A0700DA89EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA46D9541D017A0700DA89EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA46D9571D017A0700DA89EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA46D9591D017A0700DA89EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA46D95C1D017A0700DA89EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA46D95E1D017A0700DA89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA46D9631D017A0700DA89EA /* ShareExtensionSavioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareExtensionSavioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46D9671D017A0700DA89EA /* ShareExtensionSavioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionSavioTests.swift; sourceTree = "<group>"; };
+		CA46D9691D017A0700DA89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareExtensionSavioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46D9721D017A0700DA89EA /* ShareExtensionSavioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionSavioUITests.swift; sourceTree = "<group>"; };
+		CA46D9741D017A0700DA89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA46D94C1D017A0700DA89EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D9601D017A0700DA89EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D96B1D017A0700DA89EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA46D9461D017A0700DA89EA = {
+			isa = PBXGroup;
+			children = (
+				CA46D9511D017A0700DA89EA /* ShareExtensionSavio */,
+				CA46D9661D017A0700DA89EA /* ShareExtensionSavioTests */,
+				CA46D9711D017A0700DA89EA /* ShareExtensionSavioUITests */,
+				CA46D9501D017A0700DA89EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA46D9501D017A0700DA89EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA46D94F1D017A0700DA89EA /* ShareExtensionSavio.app */,
+				CA46D9631D017A0700DA89EA /* ShareExtensionSavioTests.xctest */,
+				CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA46D9511D017A0700DA89EA /* ShareExtensionSavio */ = {
+			isa = PBXGroup;
+			children = (
+				CA46D9521D017A0700DA89EA /* AppDelegate.swift */,
+				CA46D9541D017A0700DA89EA /* ViewController.swift */,
+				CA46D9561D017A0700DA89EA /* Main.storyboard */,
+				CA46D9591D017A0700DA89EA /* Assets.xcassets */,
+				CA46D95B1D017A0700DA89EA /* LaunchScreen.storyboard */,
+				CA46D95E1D017A0700DA89EA /* Info.plist */,
+			);
+			path = ShareExtensionSavio;
+			sourceTree = "<group>";
+		};
+		CA46D9661D017A0700DA89EA /* ShareExtensionSavioTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA46D9671D017A0700DA89EA /* ShareExtensionSavioTests.swift */,
+				CA46D9691D017A0700DA89EA /* Info.plist */,
+			);
+			path = ShareExtensionSavioTests;
+			sourceTree = "<group>";
+		};
+		CA46D9711D017A0700DA89EA /* ShareExtensionSavioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA46D9721D017A0700DA89EA /* ShareExtensionSavioUITests.swift */,
+				CA46D9741D017A0700DA89EA /* Info.plist */,
+			);
+			path = ShareExtensionSavioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA46D9771D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavio" */;
+			buildPhases = (
+				CA46D94B1D017A0700DA89EA /* Sources */,
+				CA46D94C1D017A0700DA89EA /* Frameworks */,
+				CA46D94D1D017A0700DA89EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtensionSavio;
+			productName = ShareExtensionSavio;
+			productReference = CA46D94F1D017A0700DA89EA /* ShareExtensionSavio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA46D9621D017A0700DA89EA /* ShareExtensionSavioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA46D97A1D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavioTests" */;
+			buildPhases = (
+				CA46D95F1D017A0700DA89EA /* Sources */,
+				CA46D9601D017A0700DA89EA /* Frameworks */,
+				CA46D9611D017A0700DA89EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA46D9651D017A0700DA89EA /* PBXTargetDependency */,
+			);
+			name = ShareExtensionSavioTests;
+			productName = ShareExtensionSavioTests;
+			productReference = CA46D9631D017A0700DA89EA /* ShareExtensionSavioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA46D96D1D017A0700DA89EA /* ShareExtensionSavioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA46D97D1D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavioUITests" */;
+			buildPhases = (
+				CA46D96A1D017A0700DA89EA /* Sources */,
+				CA46D96B1D017A0700DA89EA /* Frameworks */,
+				CA46D96C1D017A0700DA89EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA46D9701D017A0700DA89EA /* PBXTargetDependency */,
+			);
+			name = ShareExtensionSavioUITests;
+			productName = ShareExtensionSavioUITests;
+			productReference = CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA46D9471D017A0700DA89EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mangesh  Tekale";
+				TargetAttributes = {
+					CA46D94E1D017A0700DA89EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CA46D9621D017A0700DA89EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA46D94E1D017A0700DA89EA;
+					};
+					CA46D96D1D017A0700DA89EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA46D94E1D017A0700DA89EA;
+					};
+				};
+			};
+			buildConfigurationList = CA46D94A1D017A0700DA89EA /* Build configuration list for PBXProject "ShareExtensionSavio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA46D9461D017A0700DA89EA;
+			productRefGroup = CA46D9501D017A0700DA89EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */,
+				CA46D9621D017A0700DA89EA /* ShareExtensionSavioTests */,
+				CA46D96D1D017A0700DA89EA /* ShareExtensionSavioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA46D94D1D017A0700DA89EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D95D1D017A0700DA89EA /* LaunchScreen.storyboard in Resources */,
+				CA46D95A1D017A0700DA89EA /* Assets.xcassets in Resources */,
+				CA46D9581D017A0700DA89EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D9611D017A0700DA89EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D96C1D017A0700DA89EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA46D94B1D017A0700DA89EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D9551D017A0700DA89EA /* ViewController.swift in Sources */,
+				CA46D9531D017A0700DA89EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D95F1D017A0700DA89EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D9681D017A0700DA89EA /* ShareExtensionSavioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D96A1D017A0700DA89EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D9731D017A0700DA89EA /* ShareExtensionSavioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA46D9651D017A0700DA89EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */;
+			targetProxy = CA46D9641D017A0700DA89EA /* PBXContainerItemProxy */;
+		};
+		CA46D9701D017A0700DA89EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */;
+			targetProxy = CA46D96F1D017A0700DA89EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA46D9561D017A0700DA89EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA46D9571D017A0700DA89EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA46D95B1D017A0700DA89EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA46D95C1D017A0700DA89EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA46D9751D017A0700DA89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA46D9761D017A0700DA89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA46D9781D017A0700DA89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareExtensionSavio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA46D9791D017A0700DA89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareExtensionSavio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA46D97B1D017A0700DA89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareExtensionSavioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareExtensionSavio.app/ShareExtensionSavio";
+			};
+			name = Debug;
+		};
+		CA46D97C1D017A0700DA89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareExtensionSavioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareExtensionSavio.app/ShareExtensionSavio";
+			};
+			name = Release;
+		};
+		CA46D97E1D017A0700DA89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareExtensionSavioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareExtensionSavio;
+			};
+			name = Debug;
+		};
+		CA46D97F1D017A0700DA89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareExtensionSavioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareExtensionSavio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA46D94A1D017A0700DA89EA /* Build configuration list for PBXProject "ShareExtensionSavio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46D9751D017A0700DA89EA /* Debug */,
+				CA46D9761D017A0700DA89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA46D9771D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46D9781D017A0700DA89EA /* Debug */,
+				CA46D9791D017A0700DA89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA46D97A1D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46D97B1D017A0700DA89EA /* Debug */,
+				CA46D97C1D017A0700DA89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA46D97D1D017A0700DA89EA /* Build configuration list for PBXNativeTarget "ShareExtensionSavioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46D97E1D017A0700DA89EA /* Debug */,
+				CA46D97F1D017A0700DA89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA46D9471D017A0700DA89EA /* Project object */;
+}

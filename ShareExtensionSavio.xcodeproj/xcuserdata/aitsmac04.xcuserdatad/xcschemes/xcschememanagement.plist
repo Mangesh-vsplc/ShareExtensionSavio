@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Share.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ShareExtensionSavio.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>CA46D96D1D017A0700DA89EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA46D9831D017A2200DA89EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

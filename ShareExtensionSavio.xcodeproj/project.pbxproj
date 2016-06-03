@@ -14,6 +14,11 @@
 		CA46D95D1D017A0700DA89EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA46D95B1D017A0700DA89EA /* LaunchScreen.storyboard */; };
 		CA46D9681D017A0700DA89EA /* ShareExtensionSavioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9671D017A0700DA89EA /* ShareExtensionSavioTests.swift */; };
 		CA46D9731D017A0700DA89EA /* ShareExtensionSavioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9721D017A0700DA89EA /* ShareExtensionSavioUITests.swift */; };
+		CA46D9871D017A2200DA89EA /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46D9861D017A2200DA89EA /* ShareViewController.swift */; };
+		CA46D98A1D017A2200DA89EA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA46D9881D017A2200DA89EA /* MainInterface.storyboard */; };
+		CA46D98E1D017A2200DA89EA /* Share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA46D9841D017A2200DA89EA /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA46D9961D017CBD00DA89EA /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = CA46D9951D017CBD00DA89EA /* icon-60.png */; };
+		CA46D9981D0181AD00DA89EA /* ShareExtension.js in Resources */ = {isa = PBXBuildFile; fileRef = CA46D9971D0181AD00DA89EA /* ShareExtension.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +36,28 @@
 			remoteGlobalIDString = CA46D94E1D017A0700DA89EA;
 			remoteInfo = ShareExtensionSavio;
 		};
+		CA46D98C1D017A2200DA89EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA46D9471D017A0700DA89EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA46D9831D017A2200DA89EA;
+			remoteInfo = Share;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA46D9921D017A2200DA89EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA46D98E1D017A2200DA89EA /* Share.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CA46D94F1D017A0700DA89EA /* ShareExtensionSavio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareExtensionSavio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +73,12 @@
 		CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareExtensionSavioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA46D9721D017A0700DA89EA /* ShareExtensionSavioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionSavioUITests.swift; sourceTree = "<group>"; };
 		CA46D9741D017A0700DA89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA46D9841D017A2200DA89EA /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46D9861D017A2200DA89EA /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		CA46D9891D017A2200DA89EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CA46D98B1D017A2200DA89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA46D9951D017CBD00DA89EA /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		CA46D9971D0181AD00DA89EA /* ShareExtension.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ShareExtension.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA46D9811D017A2200DA89EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +119,7 @@
 				CA46D9511D017A0700DA89EA /* ShareExtensionSavio */,
 				CA46D9661D017A0700DA89EA /* ShareExtensionSavioTests */,
 				CA46D9711D017A0700DA89EA /* ShareExtensionSavioUITests */,
+				CA46D9851D017A2200DA89EA /* Share */,
 				CA46D9501D017A0700DA89EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +130,7 @@
 				CA46D94F1D017A0700DA89EA /* ShareExtensionSavio.app */,
 				CA46D9631D017A0700DA89EA /* ShareExtensionSavioTests.xctest */,
 				CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */,
+				CA46D9841D017A2200DA89EA /* Share.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +166,18 @@
 			path = ShareExtensionSavioUITests;
 			sourceTree = "<group>";
 		};
+		CA46D9851D017A2200DA89EA /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				CA46D9971D0181AD00DA89EA /* ShareExtension.js */,
+				CA46D9951D017CBD00DA89EA /* icon-60.png */,
+				CA46D9861D017A2200DA89EA /* ShareViewController.swift */,
+				CA46D9881D017A2200DA89EA /* MainInterface.storyboard */,
+				CA46D98B1D017A2200DA89EA /* Info.plist */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +188,12 @@
 				CA46D94B1D017A0700DA89EA /* Sources */,
 				CA46D94C1D017A0700DA89EA /* Frameworks */,
 				CA46D94D1D017A0700DA89EA /* Resources */,
+				CA46D9921D017A2200DA89EA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA46D98D1D017A2200DA89EA /* PBXTargetDependency */,
 			);
 			name = ShareExtensionSavio;
 			productName = ShareExtensionSavio;
@@ -181,6 +236,23 @@
 			productReference = CA46D96E1D017A0700DA89EA /* ShareExtensionSavioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CA46D9831D017A2200DA89EA /* Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA46D98F1D017A2200DA89EA /* Build configuration list for PBXNativeTarget "Share" */;
+			buildPhases = (
+				CA46D9801D017A2200DA89EA /* Sources */,
+				CA46D9811D017A2200DA89EA /* Frameworks */,
+				CA46D9821D017A2200DA89EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Share;
+			productName = Share;
+			productReference = CA46D9841D017A2200DA89EA /* Share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +274,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = CA46D94E1D017A0700DA89EA;
 					};
+					CA46D9831D017A2200DA89EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = CA46D94A1D017A0700DA89EA /* Build configuration list for PBXProject "ShareExtensionSavio" */;
@@ -220,6 +295,7 @@
 				CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */,
 				CA46D9621D017A0700DA89EA /* ShareExtensionSavioTests */,
 				CA46D96D1D017A0700DA89EA /* ShareExtensionSavioUITests */,
+				CA46D9831D017A2200DA89EA /* Share */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +322,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA46D9821D017A2200DA89EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D9981D0181AD00DA89EA /* ShareExtension.js in Resources */,
+				CA46D9961D017CBD00DA89EA /* icon-60.png in Resources */,
+				CA46D98A1D017A2200DA89EA /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +363,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA46D9801D017A2200DA89EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46D9871D017A2200DA89EA /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +383,11 @@
 			isa = PBXTargetDependency;
 			target = CA46D94E1D017A0700DA89EA /* ShareExtensionSavio */;
 			targetProxy = CA46D96F1D017A0700DA89EA /* PBXContainerItemProxy */;
+		};
+		CA46D98D1D017A2200DA89EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA46D9831D017A2200DA89EA /* Share */;
+			targetProxy = CA46D98C1D017A2200DA89EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +406,14 @@
 				CA46D95C1D017A0700DA89EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA46D9881D017A2200DA89EA /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA46D9891D017A2200DA89EA /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ShareExtensionSavio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio;
@@ -410,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ShareExtensionSavio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio;
@@ -463,6 +572,28 @@
 			};
 			name = Release;
 		};
+		CA46D9901D017A2200DA89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA46D9911D017A2200DA89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsa.ShareExtensionSavio.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,6 +627,14 @@
 			buildConfigurations = (
 				CA46D97E1D017A0700DA89EA /* Debug */,
 				CA46D97F1D017A0700DA89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA46D98F1D017A2200DA89EA /* Build configuration list for PBXNativeTarget "Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46D9901D017A2200DA89EA /* Debug */,
+				CA46D9911D017A2200DA89EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

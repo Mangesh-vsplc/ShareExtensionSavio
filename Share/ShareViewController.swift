@@ -15,6 +15,7 @@ class ShareViewController: UIViewController {
     @IBOutlet var lblImagePagingCount: UILabel!
     @IBOutlet var textView: UITextView!
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var bgView: UIView!
     var currentImagePosition: Int = 0;
     var dictGlobal: Dictionary = [String: AnyObject]()
     @IBAction func cancelButtonTapped(sender: AnyObject) {
@@ -50,6 +51,10 @@ class ShareViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.bgView.layer.borderColor = UIColor.grayColor().CGColor
+        self.bgView.layer.borderWidth = 2.0
+        self.bgView.layer.cornerRadius = 5.0
         for item: AnyObject in (self.extensionContext?.inputItems)! {
             let inputItem = item as! NSExtensionItem
             for provider: AnyObject in inputItem.attachments! {
